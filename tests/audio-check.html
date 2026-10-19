@@ -1,0 +1,17 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>Choir audio verification</title><button id="run">运行离线音频检查</button><pre id="result">等待检查</pre><script type="module">
+import {PIECES,pieceFrame} from '/src/music/repertoire.js';
+import {ChoralVoice} from '/src/music/voice-graph.js';
+document.getElementById('run').onclick=async()=>{
+ const results=[];
+ for(const piece of PIECES){
+  const rate=22050,context=new OfflineAudioContext(2,Math.ceil((piece.seconds+1)*rate),rate);
+  const master=context.createGain();master.gain.value=.7;master.connect(context.destination);
+  const voices=Array.from({length:4},(_,i)=>new ChoralVoice(context,master,i,4));
+  for(let t=0;t<piece.seconds+.2;t+=.02)pieceFrame(piece,t).forEach((f,i)=>voices[i].set(f,t));
+  const audio=await context.startRendering();let peak=0,sum=0,tail=0;
+  for(let ch=0;ch<2;ch++){const d=audio.getChannelData(ch);for(let i=0;i<d.length;i++){peak=Math.max(peak,Math.abs(d[i]));sum+=d[i]**2;if(i>d.length-rate*.1)tail=Math.max(tail,Math.abs(d[i]));}}
+  results.push({id:piece.id,seconds:piece.seconds,samples:audio.length,peak,rms:Math.sqrt(sum/(audio.length*2)),tail,passed:peak>.005&&peak<1&&tail<.0001});
+ }
+ document.getElementById('result').textContent=JSON.stringify({passed:results.every(r=>r.passed),pieces:results},null,2);
+};
+</script></html>

@@ -1,0 +1,126 @@
+{
+  "repository": "pollen-robotics/microduck",
+  "revision": "53230463927095ea890f231d29089bb0a538c06f",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "gitBlob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "url": "https://github.com/pollen-robotics/microduck/blob/53230463927095ea890f231d29089bb0a538c06f/LICENSE"
+    },
+    {
+      "path": "sounds/Cargo.toml",
+      "gitBlob": "3cf777e0e757345b3950d65f32616dce67d8a806",
+      "sha256": "fa7ae931a01958f51aa22429092f67b9b7ad38347f5ad183c4b92cd170d30331",
+      "bytes": 787,
+      "url": "https://github.com/pollen-robotics/microduck/blob/53230463927095ea890f231d29089bb0a538c06f/sounds/Cargo.toml"
+    },
+    {
+      "path": "sounds/src/lib.rs",
+      "gitBlob": "943af2343c57fe9b6b0d8a83c3e68adc6e552fab",
+      "sha256": "4e9baf2c35bc3808f8c8e1d7f9f96c1a69517a683ecc73afcdb5c34d8321500d",
+      "bytes": 7729,
+      "url": "https://github.com/pollen-robotics/microduck/blob/53230463927095ea890f231d29089bb0a538c06f/sounds/src/lib.rs"
+    },
+    {
+      "path": "sounds/src/personality.rs",
+      "gitBlob": "762a5c401cff1052d0583602d2928bbaed6b73cc",
+      "sha256": "17f738ab3940ff084a808c61aa5e76e6e7e4f4e0c1fea9323fd0daa090a6c0cd",
+      "bytes": 7161,
+      "url": "https://github.com/pollen-robotics/microduck/blob/53230463927095ea890f231d29089bb0a538c06f/sounds/src/personality.rs"
+    },
+    {
+      "path": "sounds/src/rng.rs",
+      "gitBlob": "775d1d269e4a7534b7c2123bf5849270515f7e5d",
+      "sha256": "d697f7b2e318add8547c22360f94bf8be638e0513f69b6847e7cb20c307122be",
+      "bytes": 5655,
+      "url": "https://github.com/pollen-robotics/microduck/blob/53230463927095ea890f231d29089bb0a538c06f/sounds/src/rng.rs"
+    },
+    {
+      "path": "sounds/src/synth.rs",
+      "gitBlob": "e1ad24b69219f220640c7353d3cead8635a8a8eb",
+      "sha256": "2cff1e97cac3ae16d6d384ecd25b709a81937654942df2fee5c572b89818b4c6",
+      "bytes": 8895,
+      "url": "https://github.com/pollen-robotics/microduck/blob/53230463927095ea890f231d29089bb0a538c06f/sounds/src/synth.rs"
+    },
+    {
+      "path": "sounds/src/voices.rs",
+      "gitBlob": "7f637f7eb72ae1fa0fb97c1d87622fe96eadd021",
+      "sha256": "05374c5c557bfd76b7e7c04fadeaf45ff2a9e2d3af70233d2f9e0c99e28ced07",
+      "bytes": 16501,
+      "url": "https://github.com/pollen-robotics/microduck/blob/53230463927095ea890f231d29089bb0a538c06f/sounds/src/voices.rs"
+    },
+    {
+      "path": "sounds/src/stream.rs",
+      "gitBlob": "e7549a19cd94ba99b1dd1ef8e41f484f5c3e1b01",
+      "sha256": "4adcccd524477659b368fde8d44adef36f9fdb7e8495bb23752ef9700513b564",
+      "bytes": 39343,
+      "url": "https://github.com/pollen-robotics/microduck/blob/53230463927095ea890f231d29089bb0a538c06f/sounds/src/stream.rs"
+    },
+    {
+      "path": "sounds/src/chorale/mod.rs",
+      "gitBlob": "1270c6c3441f89cfd8b22eb6036dfeb84e2ceaf2",
+      "sha256": "7805f4132a175164f5a07e0b6db770dffc690a5439b0f3d07f30595efcd8b3fc",
+      "bytes": 62618,
+      "url": "https://github.com/pollen-robotics/microduck/blob/53230463927095ea890f231d29089bb0a538c06f/sounds/src/chorale/mod.rs"
+    },
+    {
+      "path": "sounds/src/chorale/text.rs",
+      "gitBlob": "4e7da3b9dd9a9dceac56e5d283082609090cec04",
+      "sha256": "3442975227291eb760dc0dba56b2f250b91a63a8a0bd0570232e9993c8ab7223",
+      "bytes": 20329,
+      "url": "https://github.com/pollen-robotics/microduck/blob/53230463927095ea890f231d29089bb0a538c06f/sounds/src/chorale/text.rs"
+    },
+    {
+      "path": "sounds/scores/wistful.duckscore",
+      "gitBlob": "29d970869fb8b03182f9c84e5f346539dbd684bb",
+      "sha256": "4baa780c5a90ca6bf92b1a0f20a0ef17dbaa826cbe20ed715484d5a9889d051a",
+      "bytes": 4171,
+      "url": "https://github.com/pollen-robotics/microduck/blob/53230463927095ea890f231d29089bb0a538c06f/sounds/scores/wistful.duckscore"
+    },
+    {
+      "path": "robotd/src/chorale.rs",
+      "gitBlob": "3d1d229af3cf3e743e11d67da3083e5be25af64f",
+      "sha256": "f4b67edd128fc3d679c76261c3fb342fbd687e65c82991ca802869ada1f40110",
+      "bytes": 56062,
+      "url": "https://github.com/pollen-robotics/microduck/blob/53230463927095ea890f231d29089bb0a538c06f/robotd/src/chorale.rs"
+    },
+    {
+      "path": "robotd/src/theremin.rs",
+      "gitBlob": "9527675cb1e890644fa023a993276200d14d5e5b",
+      "sha256": "498335f69f7ba185fac85bdbc2ad692db7c89d1b729b3a86e06c0254d7f24749",
+      "bytes": 20732,
+      "url": "https://github.com/pollen-robotics/microduck/blob/53230463927095ea890f231d29089bb0a538c06f/robotd/src/theremin.rs"
+    },
+    {
+      "path": "docs/robot/cheatsheet.md",
+      "gitBlob": "cfde58c891856424470df76996051e6c6765f155",
+      "sha256": "e5302d81a91d3914bd7f8d44f843539354a62e5cfa52bbf9078979fe1e164cd9",
+      "bytes": 59852,
+      "url": "https://github.com/pollen-robotics/microduck/blob/53230463927095ea890f231d29089bb0a538c06f/docs/robot/cheatsheet.md"
+    },
+    {
+      "path": "sounds/scores/duck_strut.mid",
+      "gitBlob": "8f6d31ab4bbb5b052aab59e98ba7052caad5c396",
+      "sha256": "221b8a64a9dfe9567909bca372bbeb00b1bf40a1bc96112f503a69651b32eed4",
+      "bytes": 2958,
+      "url": "https://github.com/pollen-robotics/microduck/blob/53230463927095ea890f231d29089bb0a538c06f/sounds/scores/duck_strut.mid"
+    },
+    {
+      "path": "sounds/src/chorale/midi.rs",
+      "gitBlob": "b6c78c7c1c1ed7488631ca2c2f6ac77d8cbe4142",
+      "sha256": "b3097ae290c6185a44fc9b03a8e0e8508b18084ccbe91f99d92a5b46fd6a260a",
+      "bytes": 32103,
+      "url": "https://github.com/pollen-robotics/microduck/blob/53230463927095ea890f231d29089bb0a538c06f/sounds/src/chorale/midi.rs"
+    },
+    {
+      "path": "kinematics/src/hand.rs",
+      "gitBlob": "1b08ec4c0278805184bcdcb961f46a8e82af80aa",
+      "sha256": "ce6b4c01a88bfba34cc3f812c2b6ba9636851aa4bc931e74f8f515b452879a32",
+      "bytes": 16907,
+      "url": "https://github.com/pollen-robotics/microduck/blob/53230463927095ea890f231d29089bb0a538c06f/kinematics/src/hand.rs"
+    }
+  ]
+}

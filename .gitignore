@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.DS_Store
+.impeccable/review/*.wav
+.impeccable/review/*native.png
+.impeccable/review/close-user-desktop.png
+.impeccable/review/github*.png

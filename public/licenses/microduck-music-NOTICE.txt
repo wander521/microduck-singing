@@ -1,0 +1,17 @@
+MicroDuck Singing music adaptation
+
+Original project: pollen-robotics/microduck
+https://github.com/pollen-robotics/microduck
+Pinned revision: 53230463927095ea890f231d29089bb0a538c06f
+License: Apache License, Version 2.0 (included beside this notice)
+
+Reused original scores: sounds/scores/wistful.duckscore and duck_strut.mid.
+Notes, written dynamics, vowels and tie merging retained in generated data.
+This standalone adaptation uses the original 58/126 BPM score tempi.
+Outer Wilds test material is not included.
+
+Adapted voice harmonic/formant logic and head_expression from official music
+and robotd sources. Browser personalities, Web Audio graph, transport, visual
+seated quartet, Moon Quack March and Ode to Joy arrangement are additions by
+this project. This is not bit-identical Rust Stream, Bluetooth synchronization,
+physical simulation, trained audio RL or hardware validation.

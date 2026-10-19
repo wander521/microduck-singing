@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#afc9c3"><meta name="description" content="四只 MicroDuck，四种声音，四首小小的合唱。可切换曲目、试听声部的互动小鸭合唱团。"><title>小鸭合唱团 · MicroDuck Singing</title><link rel="icon" type="image/svg+xml" href="./favicon.svg"></head>
+<body>
+  <header class="header"><div class="brand"><span>DUCK!</span><h1>小鸭合唱团</h1></div><div class="header-actions"><button id="view" class="quiet icon-button" aria-label="恢复舞台视角" title="恢复舞台视角"></button><button id="about-button" class="quiet">关于合唱</button></div></header>
+  <main>
+    <section id="stage" class="stage" aria-label="小鸭合唱舞台"><p id="loading" role="status">小鸭们正在入座…</p></section>
+    <aside class="programme" aria-label="选择曲目"><div class="programme-title"><h2>今日节目单</h2><span>四首，慢慢听。</span></div><div id="pieces" class="pieces"></div><p class="programme-note">四只小鸭，各有各的声音。</p></aside>
+    <div class="stage-caption"><span id="state-dot"></span><span id="status" role="status">准备就绪</span><span class="separator">/</span><span id="mood">温柔 · 四声部</span></div>
+    <section class="audition" aria-label="声部试听"><p>听听每一只<span>点击声部，单独聆听</span></p><div id="voices" class="voices"></div><button id="all-voices" class="quiet" hidden>恢复四声部</button></section>
+    <section class="transport" aria-label="播放控制">
+      <div class="now-playing"><span id="now-title">微光慢板</span><span id="now-credit">Pollen Robotics 官方原创</span></div>
+      <div class="playback"><button id="restart" class="icon-button quiet" aria-label="从头演唱" title="从头演唱"></button><button id="play" class="play-button" disabled><span id="play-icon"></span><span id="play-text">正在入座</span></button><button id="next" class="icon-button quiet" aria-label="下一首" title="下一首"></button></div>
+      <div class="timebar"><span id="elapsed">0:00</span><progress id="progress" value="0" max="1" aria-label="演唱进度"></progress><span id="duration">0:59</span></div>
+      <label class="volume"><span id="volume-icon"></span><span class="sr-only">音量</span><input id="volume" type="range" min="0" max="100" value="70" aria-label="音量"><output id="volume-value">70%</output></label>
+    </section>
+    <p class="hint">拖动环顾舞台 <span>·</span> 空格 播放 / 暂停</p>
+    <p id="error" role="alert" hidden></p>
+    <section id="about" class="about" aria-labelledby="about-title" hidden><div class="about-heading"><h2 id="about-title">四种声音，一场小小合唱。</h2><button id="close-about" class="icon-button quiet" aria-label="关闭说明"></button></div><p>灵感来自 Pollen Robotics 的四鸭合唱视频。Wistful 与 Duck Strut 沿用官方原创乐谱，《月球嘎嘎进行曲》为本项目原创，《欢乐颂》为贝多芬旋律的四声部改编。</p><p>声音在浏览器中实时合成，嘴部和头部跟随同一乐谱时钟。坐姿为运动学展示。</p><div class="source-links"><a href="https://www.youtube.com/watch?v=ZsSoyMcggpU" target="_blank" rel="noreferrer">观看参考视频</a><a href="https://iagai.cn/reference/commands/chorale/index.html" target="_blank" rel="noreferrer">合唱案例</a><a href="https://github.com/pollen-robotics/microduck/tree/53230463927095ea890f231d29089bb0a538c06f" target="_blank" rel="noreferrer">官方源码 · Apache-2.0</a></div></section>
+  </main>
+  <script type="module" src="/src/main.js"></script>
+</body></html>

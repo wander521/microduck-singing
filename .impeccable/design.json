@@ -1,0 +1,550 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T04:21:43.019001+00:00",
+  "title": "Design System: 小鸭合唱团",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "奶油纸面",
+        "tonalRamp": [
+          "oklch(15% 0.02272 84.592)",
+          "oklch(26% 0.02272 84.592)",
+          "oklch(38% 0.02272 84.592)",
+          "oklch(49% 0.02272 84.592)",
+          "oklch(61% 0.02272 84.592)",
+          "oklch(72% 0.02272 84.592)",
+          "oklch(84% 0.02272 84.592)",
+          "oklch(95% 0.02272 84.592)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "海蓝文字",
+        "tonalRamp": [
+          "oklch(15% 0.03942 238.266)",
+          "oklch(26% 0.03942 238.266)",
+          "oklch(38% 0.03942 238.266)",
+          "oklch(49% 0.03942 238.266)",
+          "oklch(61% 0.03942 238.266)",
+          "oklch(72% 0.03942 238.266)",
+          "oklch(84% 0.03942 238.266)",
+          "oklch(95% 0.03942 238.266)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "灰蓝辅文",
+        "tonalRamp": [
+          "oklch(15% 0.02613 225.285)",
+          "oklch(26% 0.02613 225.285)",
+          "oklch(38% 0.02613 225.285)",
+          "oklch(49% 0.02613 225.285)",
+          "oklch(61% 0.02613 225.285)",
+          "oklch(72% 0.02613 225.285)",
+          "oklch(84% 0.02613 225.285)",
+          "oklch(95% 0.02613 225.285)"
+        ]
+      },
+      "coral": {
+        "role": "primary",
+        "displayName": "珊瑚动作色",
+        "tonalRamp": [
+          "oklch(15% 0.15492 33.793)",
+          "oklch(26% 0.15492 33.793)",
+          "oklch(38% 0.15492 33.793)",
+          "oklch(49% 0.15492 33.793)",
+          "oklch(61% 0.15492 33.793)",
+          "oklch(72% 0.15492 33.793)",
+          "oklch(84% 0.15492 33.793)",
+          "oklch(95% 0.15492 33.793)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "奶油轨道",
+        "tonalRamp": [
+          "oklch(15% 0.02208 95.317)",
+          "oklch(26% 0.02208 95.317)",
+          "oklch(38% 0.02208 95.317)",
+          "oklch(49% 0.02208 95.317)",
+          "oklch(61% 0.02208 95.317)",
+          "oklch(72% 0.02208 95.317)",
+          "oklch(84% 0.02208 95.317)",
+          "oklch(95% 0.02208 95.317)"
+        ]
+      },
+      "selected-marine": {
+        "role": "secondary",
+        "displayName": "海蓝搪瓷",
+        "tonalRamp": [
+          "oklch(15% 0.04285 239.327)",
+          "oklch(26% 0.04285 239.327)",
+          "oklch(38% 0.04285 239.327)",
+          "oklch(49% 0.04285 239.327)",
+          "oklch(61% 0.04285 239.327)",
+          "oklch(72% 0.04285 239.327)",
+          "oklch(84% 0.04285 239.327)",
+          "oklch(95% 0.04285 239.327)"
+        ]
+      },
+      "coral-hover": {
+        "role": "primary",
+        "displayName": "深珊瑚",
+        "tonalRamp": [
+          "oklch(15% 0.13994 33.045)",
+          "oklch(26% 0.13994 33.045)",
+          "oklch(38% 0.13994 33.045)",
+          "oklch(49% 0.13994 33.045)",
+          "oklch(61% 0.13994 33.045)",
+          "oklch(72% 0.13994 33.045)",
+          "oklch(84% 0.13994 33.045)",
+          "oklch(95% 0.13994 33.045)"
+        ]
+      },
+      "hover-paper": {
+        "role": "neutral",
+        "displayName": "纸面悬停",
+        "tonalRamp": [
+          "oklch(15% 0.02832 86.647)",
+          "oklch(26% 0.02832 86.647)",
+          "oklch(38% 0.02832 86.647)",
+          "oklch(49% 0.02832 86.647)",
+          "oklch(61% 0.02832 86.647)",
+          "oklch(72% 0.02832 86.647)",
+          "oklch(84% 0.02832 86.647)",
+          "oklch(95% 0.02832 86.647)"
+        ]
+      },
+      "soft-action": {
+        "role": "neutral",
+        "displayName": "暖色选区",
+        "tonalRamp": [
+          "oklch(15% 0.05176 65.197)",
+          "oklch(26% 0.05176 65.197)",
+          "oklch(38% 0.05176 65.197)",
+          "oklch(49% 0.05176 65.197)",
+          "oklch(61% 0.05176 65.197)",
+          "oklch(72% 0.05176 65.197)",
+          "oklch(84% 0.05176 65.197)",
+          "oklch(95% 0.05176 65.197)"
+        ]
+      },
+      "soft-action-ink": {
+        "role": "neutral",
+        "displayName": "暖棕链接",
+        "tonalRamp": [
+          "oklch(15% 0.11046 35.068)",
+          "oklch(26% 0.11046 35.068)",
+          "oklch(38% 0.11046 35.068)",
+          "oklch(49% 0.11046 35.068)",
+          "oklch(61% 0.11046 35.068)",
+          "oklch(72% 0.11046 35.068)",
+          "oklch(84% 0.11046 35.068)",
+          "oklch(95% 0.11046 35.068)"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "陶红错误",
+        "tonalRamp": [
+          "oklch(15% 0.13798 32.650)",
+          "oklch(26% 0.13798 32.650)",
+          "oklch(38% 0.13798 32.650)",
+          "oklch(49% 0.13798 32.650)",
+          "oklch(61% 0.13798 32.650)",
+          "oklch(72% 0.13798 32.650)",
+          "oklch(84% 0.13798 32.650)",
+          "oklch(95% 0.13798 32.650)"
+        ]
+      },
+      "rehearsal-mint": {
+        "role": "secondary",
+        "displayName": "排练薄荷",
+        "tonalRamp": [
+          "oklch(15% 0.02928 180.085)",
+          "oklch(26% 0.02928 180.085)",
+          "oklch(38% 0.02928 180.085)",
+          "oklch(49% 0.02928 180.085)",
+          "oklch(61% 0.02928 180.085)",
+          "oklch(72% 0.02928 180.085)",
+          "oklch(84% 0.02928 180.085)",
+          "oklch(95% 0.02928 180.085)"
+        ]
+      },
+      "voice-muted": {
+        "role": "neutral",
+        "displayName": "退后灰绿",
+        "tonalRamp": [
+          "oklch(15% 0.01713 145.433)",
+          "oklch(26% 0.01713 145.433)",
+          "oklch(38% 0.01713 145.433)",
+          "oklch(49% 0.01713 145.433)",
+          "oklch(61% 0.01713 145.433)",
+          "oklch(72% 0.01713 145.433)",
+          "oklch(84% 0.01713 145.433)",
+          "oklch(95% 0.01713 145.433)"
+        ]
+      },
+      "selected-caption": {
+        "role": "neutral",
+        "displayName": "选中浅灰蓝",
+        "tonalRamp": [
+          "oklch(15% 0.01573 212.006)",
+          "oklch(26% 0.01573 212.006)",
+          "oklch(38% 0.01573 212.006)",
+          "oklch(49% 0.01573 212.006)",
+          "oklch(61% 0.01573 212.006)",
+          "oklch(72% 0.01573 212.006)",
+          "oklch(84% 0.01573 212.006)",
+          "oklch(95% 0.01573 212.006)"
+        ]
+      },
+      "voice-lilac": {
+        "role": "secondary",
+        "displayName": "低音淡紫",
+        "tonalRamp": [
+          "oklch(15% 0.11689 296.394)",
+          "oklch(26% 0.11689 296.394)",
+          "oklch(38% 0.11689 296.394)",
+          "oklch(49% 0.11689 296.394)",
+          "oklch(61% 0.11689 296.394)",
+          "oklch(72% 0.11689 296.394)",
+          "oklch(84% 0.11689 296.394)",
+          "oklch(95% 0.11689 296.394)"
+        ]
+      },
+      "voice-graphite": {
+        "role": "secondary",
+        "displayName": "次中音石墨",
+        "tonalRamp": [
+          "oklch(15% 0.01763 254.730)",
+          "oklch(26% 0.01763 254.730)",
+          "oklch(38% 0.01763 254.730)",
+          "oklch(49% 0.01763 254.730)",
+          "oklch(61% 0.01763 254.730)",
+          "oklch(72% 0.01763 254.730)",
+          "oklch(84% 0.01763 254.730)",
+          "oklch(95% 0.01763 254.730)"
+        ]
+      },
+      "voice-sky": {
+        "role": "secondary",
+        "displayName": "中音海蓝",
+        "tonalRamp": [
+          "oklch(15% 0.07456 226.586)",
+          "oklch(26% 0.07456 226.586)",
+          "oklch(38% 0.07456 226.586)",
+          "oklch(49% 0.07456 226.586)",
+          "oklch(61% 0.07456 226.586)",
+          "oklch(72% 0.07456 226.586)",
+          "oklch(84% 0.07456 226.586)",
+          "oklch(95% 0.07456 226.586)"
+        ]
+      },
+      "voice-gold": {
+        "role": "secondary",
+        "displayName": "高音金黄",
+        "tonalRamp": [
+          "oklch(15% 0.10513 82.712)",
+          "oklch(26% 0.10513 82.712)",
+          "oklch(38% 0.10513 82.712)",
+          "oklch(49% 0.10513 82.712)",
+          "oklch(61% 0.10513 82.712)",
+          "oklch(72% 0.10513 82.712)",
+          "oklch(84% 0.10513 82.712)",
+          "oklch(95% 0.10513 82.712)"
+        ]
+      },
+      "shell-lilac": {
+        "role": "secondary",
+        "displayName": "淡紫外壳",
+        "tonalRamp": [
+          "oklch(15% 0.08574 301.687)",
+          "oklch(26% 0.08574 301.687)",
+          "oklch(38% 0.08574 301.687)",
+          "oklch(49% 0.08574 301.687)",
+          "oklch(61% 0.08574 301.687)",
+          "oklch(72% 0.08574 301.687)",
+          "oklch(84% 0.08574 301.687)",
+          "oklch(95% 0.08574 301.687)"
+        ]
+      },
+      "shell-sky": {
+        "role": "secondary",
+        "displayName": "天蓝外壳",
+        "tonalRamp": [
+          "oklch(15% 0.06432 235.712)",
+          "oklch(26% 0.06432 235.712)",
+          "oklch(38% 0.06432 235.712)",
+          "oklch(49% 0.06432 235.712)",
+          "oklch(61% 0.06432 235.712)",
+          "oklch(72% 0.06432 235.712)",
+          "oklch(84% 0.06432 235.712)",
+          "oklch(95% 0.06432 235.712)"
+        ]
+      },
+      "shell-ivory": {
+        "role": "secondary",
+        "displayName": "象牙外壳",
+        "tonalRamp": [
+          "oklch(15% 0.01940 90.547)",
+          "oklch(26% 0.01940 90.547)",
+          "oklch(38% 0.01940 90.547)",
+          "oklch(49% 0.01940 90.547)",
+          "oklch(61% 0.01940 90.547)",
+          "oklch(72% 0.01940 90.547)",
+          "oklch(84% 0.01940 90.547)",
+          "oklch(95% 0.01940 90.547)"
+        ]
+      },
+      "floor-wood": {
+        "role": "secondary",
+        "displayName": "木台基底",
+        "tonalRamp": [
+          "oklch(15% 0.07766 65.159)",
+          "oklch(26% 0.07766 65.159)",
+          "oklch(38% 0.07766 65.159)",
+          "oklch(49% 0.07766 65.159)",
+          "oklch(61% 0.07766 65.159)",
+          "oklch(72% 0.07766 65.159)",
+          "oklch(84% 0.07766 65.159)",
+          "oklch(95% 0.07766 65.159)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "brand": {
+        "displayName": "Brand",
+        "purpose": "Self-hosted DUCK! wordmark only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Programme heading."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Chinese brand name."
+      },
+      "track": {
+        "displayName": "Track",
+        "purpose": "Piece name and playback action."
+      },
+      "voice": {
+        "displayName": "Voice",
+        "purpose": "Chinese voice label."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "Quiet secondary action."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "About-card prose."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Credits and English programme labels."
+      }
+    },
+    "shadows": [
+      {
+        "name": "panel",
+        "value": "0 8px 28px #264b4520",
+        "purpose": "Programme, transport and header actions; programme/transport shadows removed on mobile."
+      },
+      {
+        "name": "voice",
+        "value": "0 4px 14px #264b4510",
+        "purpose": "Desktop voice buttons; removed on mobile and muted state."
+      },
+      {
+        "name": "about",
+        "value": "0 16px 50px #264b4530",
+        "purpose": "Expanded explanation card above the ordinary HUD."
+      }
+    ],
+    "motion": [
+      {
+        "name": "programme-meter",
+        "value": "equalize .75s ease-in-out infinite alternate",
+        "purpose": "Current piece replaces duration with animated bars while playing."
+      },
+      {
+        "name": "voice-meter",
+        "value": "equalize .45s ease-in-out infinite alternate",
+        "purpose": "Singing voice level bars; scaleY(.25) to scaleY(1)."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media(prefers-reduced-motion:reduce){animation:none!important;scroll-behavior:auto!important}",
+        "purpose": "CSS meters stop; stage also suppresses additional head expression while retaining mouth articulation."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-stage",
+        "value": "min-width:1600px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "max-width:1150px and min-width:761px"
+      },
+      {
+        "name": "short-desktop",
+        "value": "max-height:740px and min-width:761px"
+      },
+      {
+        "name": "mobile",
+        "value": "max-width:760px"
+      },
+      {
+        "name": "narrow-mobile",
+        "value": "max-width:370px"
+      }
+    ],
+    "choirCamera": {
+      "desktop": {
+        "position": [
+          0.378,
+          0.597,
+          1.159
+        ],
+        "target": [
+          0,
+          0.11,
+          0
+        ],
+        "fov": 32
+      },
+      "compact": {
+        "maxSceneWidth": 760,
+        "position": [
+          0.45,
+          0.77,
+          1.38
+        ],
+        "target": [
+          0,
+          0.19,
+          0
+        ],
+        "fov": 48
+      },
+      "reset": "Restores the active viewport default"
+    }
+  },
+  "components": [
+    {
+      "name": "Primary playback button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Coral transport action, with icon and the current playback instruction.",
+      "html": "<button class=\"ds-primary\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m9 5 11 7-11 7V5Z\"/></svg><span>开始合唱</span></button>",
+      "css": ".ds-primary{border:0;cursor:pointer;font-family:\"PingFang SC\",\"Microsoft YaHei\",sans-serif;color:var(--ink,#203746);background:var(--coral,#bd4930);color:var(--paper,#fff7e7);border-radius:10px;display:flex;align-items:center;justify-content:center;gap:10px;padding:15px 23px;min-width:147px;min-height:52px;font-size:14px;font-weight:800}.ds-primary svg{width:18px;height:18px}.ds-primary:hover:not(:disabled){background:#9e3824;filter:brightness(.96)}.ds-primary:focus-visible{outline:3px solid var(--coral,#bd4930);outline-offset:4px}.ds-primary:disabled{opacity:.65;cursor:wait}"
+    },
+    {
+      "name": "Quiet action",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Secondary actions in the header, playback row and help panel.",
+      "html": "<button class=\"ds-quiet\">关于合唱</button>",
+      "css": ".ds-quiet{border:0;cursor:pointer;font-family:\"PingFang SC\",\"Microsoft YaHei\",sans-serif;color:var(--ink,#203746);background:transparent;border-radius:9px;padding:12px 14px;font-size:12px;font-weight:750}.ds-quiet:hover{background:#eee5d1;filter:brightness(.96)}.ds-quiet:focus-visible{outline:3px solid var(--coral,#bd4930);outline-offset:4px}"
+    },
+    {
+      "name": "Programme navigation",
+      "kind": "nav",
+      "refersTo": "programme",
+      "description": "Cream programme with numbered bilingual native selection buttons.",
+      "html": "<nav class=\"ds-programme\" aria-label=\"选择曲目\"><h2>今日节目单</h2><button class=\"ds-piece\" aria-pressed=\"true\"><span class=\"ds-num\">01</span><span class=\"ds-track\"><strong>微光慢板</strong><small>Wistful</small></span><span class=\"ds-duration\">0:58</span></button><button class=\"ds-piece\" aria-pressed=\"false\"><span class=\"ds-num\">02</span><span class=\"ds-track\"><strong>鸭鸭摇摆</strong><small>Duck Strut</small></span><span class=\"ds-duration\">0:56</span></button></nav>",
+      "css": ".ds-programme{font-family:\"PingFang SC\",\"Microsoft YaHei\",sans-serif;color:var(--ink,#203746);width:264px;padding:24px 15px 16px;background:var(--paper,#fff7e7);border-radius:14px;box-shadow:0 8px 28px #264b4520}.ds-programme h2{font-size:20px;margin:0 9px 20px;letter-spacing:-.025em}.ds-piece{border:0;cursor:pointer;font-family:\"PingFang SC\",\"Microsoft YaHei\",sans-serif;color:var(--ink,#203746);display:flex;align-items:center;gap:10px;width:100%;text-align:left;background:transparent;padding:17px 10px;border-radius:9px;min-height:76px}.ds-piece:hover{background:#eee5d1;filter:brightness(.96)}.ds-piece[aria-pressed=true]{background:#263f50;color:var(--paper,#fff7e7)}.ds-piece:focus-visible{outline:3px solid var(--coral,#bd4930);outline-offset:4px}.ds-num,.ds-duration{font-size:11px;font-variant-numeric:tabular-nums}.ds-track{display:flex;flex:1;flex-direction:column;gap:6px}.ds-track strong{font-size:14px;font-weight:800}.ds-track small{font-size:10px;opacity:.8}"
+    },
+    {
+      "name": "Voice audition",
+      "kind": "button",
+      "refersTo": "voice",
+      "description": "Color dot and bilingual name identify a voice without relying on color alone.",
+      "html": "<button class=\"ds-voice\" aria-pressed=\"false\" aria-label=\"单独试听低音\"><span class=\"ds-dot\"></span><span><strong>低音</strong><small>BASS</small></span></button>",
+      "css": ".ds-voice{border:0;cursor:pointer;font-family:\"PingFang SC\",\"Microsoft YaHei\",sans-serif;color:var(--ink,#203746);display:flex;align-items:center;gap:10px;text-align:left;background:var(--paper,#fff7e7);padding:12px 17px;border-radius:10px;min-width:122px;min-height:58px;box-shadow:0 4px 14px #264b4510}.ds-voice:hover{filter:brightness(.96)}.ds-voice:focus-visible{outline:3px solid var(--coral,#bd4930);outline-offset:4px}.ds-voice[aria-pressed=true]{background:#263f50;color:var(--paper,#fff7e7)}.ds-voice[aria-pressed=true] small{color:#c8d6d9}.ds-voice.ds-muted{background:#dce6dc;box-shadow:none}.ds-dot{width:10px;height:10px;border-radius:50%;background:#846dba}.ds-voice strong{font-size:13px;font-weight:800}.ds-voice small{display:block;font-size:8px;letter-spacing:.06em;margin-top:4px;color:var(--muted,#566971)}"
+    },
+    {
+      "name": "Selected voice",
+      "kind": "button",
+      "refersTo": "voice-selected",
+      "description": "Marine selection denotes solo; accessible name describes the exit action.",
+      "html": "<button class=\"ds-voice\" aria-pressed=\"true\" aria-label=\"退出低音独唱\"><span class=\"ds-dot\"></span><span><strong>低音</strong><small>BASS</small></span></button>",
+      "css": ".ds-voice{border:0;cursor:pointer;font-family:\"PingFang SC\",\"Microsoft YaHei\",sans-serif;color:var(--ink,#203746);display:flex;align-items:center;gap:10px;text-align:left;background:var(--paper,#fff7e7);padding:12px 17px;border-radius:10px;min-width:122px;min-height:58px;box-shadow:0 4px 14px #264b4510}.ds-voice:hover{filter:brightness(.96)}.ds-voice:focus-visible{outline:3px solid var(--coral,#bd4930);outline-offset:4px}.ds-voice[aria-pressed=true]{background:#263f50;color:var(--paper,#fff7e7)}.ds-voice[aria-pressed=true] small{color:#c8d6d9}.ds-voice.ds-muted{background:#dce6dc;box-shadow:none}.ds-dot{width:10px;height:10px;border-radius:50%;background:#846dba}.ds-voice strong{font-size:13px;font-weight:800}.ds-voice small{display:block;font-size:8px;letter-spacing:.06em;margin-top:4px;color:var(--muted,#566971)}"
+    },
+    {
+      "name": "Volume range",
+      "kind": "input",
+      "refersTo": "volume",
+      "description": "Native labeled range uses the coral accent with adjacent percentage output.",
+      "html": "<label class=\"ds-volume\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m11 4-6 5H2v6h3l6 5V4ZM15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14\"/></svg><input type=\"range\" min=\"0\" max=\"100\" value=\"70\" aria-label=\"音量\"><output>70%</output></label>",
+      "css": ".ds-volume{font-family:\"PingFang SC\",\"Microsoft YaHei\",sans-serif;color:var(--ink,#203746);display:flex;align-items:center;gap:9px}.ds-volume svg{width:18px;height:18px}.ds-volume input{width:80px;height:24px;margin:0;accent-color:var(--coral,#bd4930)}.ds-volume output{font-size:10px;min-width:25px;font-variant-numeric:tabular-nums}.ds-volume input:focus-visible{outline:3px solid var(--coral,#bd4930);outline-offset:4px}"
+    },
+    {
+      "name": "Playback progress",
+      "kind": "custom",
+      "refersTo": "progress",
+      "description": "Read-only native progress bar and tabular elapsed/total times.",
+      "html": "<div class=\"ds-timebar\"><span>0:14</span><progress value=\"14\" max=\"58\" aria-label=\"演唱进度\"></progress><span>0:58</span></div>",
+      "css": ".ds-timebar{font-family:\"PingFang SC\",\"Microsoft YaHei\",sans-serif;color:var(--ink,#203746);display:flex;align-items:center;gap:12px;font-size:11px;font-variant-numeric:tabular-nums;width:360px}.ds-timebar progress{appearance:none;width:100%;height:4px;border:0;border-radius:3px;background:var(--line,#d7d3c3);overflow:hidden}.ds-timebar progress::-webkit-progress-bar{background:var(--line,#d7d3c3)}.ds-timebar progress::-webkit-progress-value{background:var(--coral,#bd4930);border-radius:3px}.ds-timebar progress::-moz-progress-bar{background:var(--coral,#bd4930)}"
+    },
+    {
+      "name": "Playback transport",
+      "kind": "card",
+      "refersTo": "playback-transport",
+      "description": "Cream transport surface combines current piece context and a coral action.",
+      "html": "<section class=\"ds-transport\" aria-label=\"播放控制\"><div class=\"ds-now\"><strong>微光慢板</strong><span>Pollen Robotics 官方原创</span></div><button class=\"ds-primary\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m9 5 11 7-11 7V5Z\"/></svg><span>开始合唱</span></button></section>",
+      "css": ".ds-transport{font-family:\"PingFang SC\",\"Microsoft YaHei\",sans-serif;color:var(--ink,#203746);display:flex;align-items:center;gap:30px;padding:16px 24px;background:var(--paper,#fff7e7);border-radius:14px;box-shadow:0 8px 28px #264b4520;min-height:88px}.ds-now{display:flex;flex-direction:column;gap:8px}.ds-now strong{font-size:15px;font-weight:800}.ds-now span{font-size:10px;color:var(--muted,#566971)}.ds-primary{border:0;cursor:pointer;font-family:\"PingFang SC\",\"Microsoft YaHei\",sans-serif;color:var(--ink,#203746);background:var(--coral,#bd4930);color:var(--paper,#fff7e7);border-radius:10px;display:flex;align-items:center;justify-content:center;gap:10px;padding:15px 23px;min-width:147px;min-height:52px;font-size:14px;font-weight:800}.ds-primary svg{width:18px;height:18px}.ds-primary:hover:not(:disabled){background:#9e3824;filter:brightness(.96)}.ds-primary:focus-visible{outline:3px solid var(--coral,#bd4930);outline-offset:4px}.ds-primary:disabled{opacity:.65;cursor:wait}"
+    },
+    {
+      "name": "About card",
+      "kind": "card",
+      "refersTo": "about-card",
+      "description": "Non-modal source and explanatory surface with a named close action.",
+      "html": "<section class=\"ds-about\" aria-label=\"关于合唱\"><div class=\"ds-about-heading\"><h2>四种声音，一场小小合唱。</h2><button class=\"ds-close\" aria-label=\"关闭说明\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m6 6 12 12M6 18 18 6\"/></svg></button></div><p>声音在浏览器中实时合成，嘴部和头部跟随同一乐谱时钟。坐姿为运动学展示。</p><a href=\"https://www.youtube.com/watch?v=ZsSoyMcggpU\">观看参考视频</a></section>",
+      "css": ".ds-about{font-family:\"PingFang SC\",\"Microsoft YaHei\",sans-serif;color:var(--ink,#203746);max-width:410px;padding:22px 25px;background:var(--paper,#fff7e7);border-radius:14px;box-shadow:0 16px 50px #264b4530}.ds-about-heading{display:flex;align-items:center;gap:16px}.ds-about h2{font-size:17px;line-height:1.5;margin:0}.ds-about p{font-size:12px;line-height:1.85;color:#41545e}.ds-about a{font-size:11px;color:#873a27;text-underline-offset:4px}.ds-close{border:0;cursor:pointer;font-family:\"PingFang SC\",\"Microsoft YaHei\",sans-serif;color:var(--ink,#203746);width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;padding:10px;flex-shrink:0;background:transparent;border-radius:9px}.ds-close svg{width:21px;height:21px}.ds-close:hover{background:#eee5d1;filter:brightness(.96)}.ds-close:focus-visible,.ds-about a:focus-visible{outline:3px solid var(--coral,#bd4930);outline-offset:4px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "奶油搪瓷街机 · Enamel Toy Sports Arcade",
+    "overview": "奶油操作件、海蓝文字与珊瑚动作色继承 MicroDuck Arcade 的玩具街机身份。合唱团把同一套搪瓷语法移到安静的排练空间：薄荷色环境、圆形木地板、四只保持真实模型比例的坐姿机器鸭。Bungee 字标带来熟悉的游戏感，中文系统字体让操作直接可读。\n\n这是独立合唱应用当前实现的设计记录。三维演员承担表现力，节目单、试听声部与播放条承担清晰的操作层级。温暖日光、材质与投影建立舞台深度；界面保持不透明、紧凑、可触摸。",
+    "keyCharacteristics": [
+      "暖奶油操作件、海蓝文字与选中态、珊瑚主要操作，延续现有街机身份。",
+      "Bungee 仅用于 DUCK! 字标；曲名、说明与交互标签使用中文系统无衬线。",
+      "薄荷背景上的圆形木质舞台，淡紫、石墨、天蓝与象牙四色坐姿小鸭。",
+      "桌面控件围绕舞台，手机依次堆叠舞台、节目单、声部与播放条。"
+    ],
+    "rules": [
+      {
+        "name": "The Meaningful Accent Rule",
+        "body": "珊瑚表示播放主操作；海蓝表示当前曲目和独唱声部，状态同时用文字与 aria-pressed 表达。",
+        "section": "colors"
+      },
+      {
+        "name": "The Display Role Rule",
+        "body": "Bungee 保留给 DUCK! 字标，中文标题和交互标签使用系统字体。",
+        "section": "typography"
+      },
+      {
+        "name": "The Stage Rule",
+        "body": "把持续操作放在演员周围，让四只小鸭的头部与嘴部保持可见；窄屏通过文档堆叠容纳操作。",
+        "section": "layout"
+      }
+    ],
+    "dos": [
+      "Do 延续奶油操作件、海蓝选中态与珊瑚主要操作，沿用当前字体、圆角和间距。",
+      "Do 让节目单和声部通过文字、可见焦点与 aria-pressed 共同表达状态。",
+      "Do 在手机上保留清晰的四鸭舞台，并让节目单、试听和播放控制自然向下滚动。",
+      "Do 让声部指示、嘴部与头部表现跟随同一音频时钟，并尊重减少动态效果偏好。"
+    ],
+    "donts": [
+      "Don't 让帮助说明或持久面板覆盖四只小鸭的头部与嘴部。",
+      "Don't 把声部身份仅交给颜色；保留低音、次中音、中音、高音和英文标签。",
+      "Don't 给普通控件混用字符箭头或图标字体；沿用内联 SVG 的统一描边。",
+      "Don't 把舞台的木质和小鸭配色扩散成操作面板的新皮肤；共享的搪瓷语法保持稳定。"
+    ]
+  }
+}

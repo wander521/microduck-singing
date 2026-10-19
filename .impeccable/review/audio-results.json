@@ -1,0 +1,13 @@
+{
+  "method": "Native Chrome OfflineAudioContext, tests/audio-check.html; metrics transcribed from visible result",
+  "sampleRate": 22050,
+  "channels": 2,
+  "passed": true,
+  "pieces": [
+    {"id":"wistful","seconds":58.706896551724135,"samples":1316538,"peak":0.054454363882541656,"rms":0.011353313476644079,"tail":0,"passed":true},
+    {"id":"duck-strut","seconds":56.904705,"samples":1276799,"peak":0.06634414196014404,"rms":0.011026771546217578,"tail":0,"passed":true},
+    {"id":"moon","seconds":18.75,"samples":435488,"peak":0.05246202275156975,"rms":0.013507039336681917,"tail":0,"passed":true},
+    {"id":"ode","seconds":38.4,"samples":868770,"peak":0.05359341576695442,"rms":0.013898113911448181,"tail":0,"passed":true}
+  ],
+  "scope": "Non-silent full pieces, peak below clipping, silent final 100ms. No bit-identical upstream Rust or hardware validation claimed."
+}
